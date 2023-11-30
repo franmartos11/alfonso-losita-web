@@ -1,41 +1,41 @@
 export default function Proyects() {
     return (
-        <div class="container my-24 mx-auto md:px-6">
-            <section class="mb-32">
-                <h2 class="mb-16 text-center text-2xl font-bold">
+        <div className="container my-24 mx-auto md:px-6">
+            <section className="mb-32">
+                <h2 className="mb-16 text-center text-2xl font-bold">
                     Latest articles
                 </h2>
 
-                <div class="mb-16 flex flex-wrap">
-                    <div class="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-6/12 lg:pr-6">
+                <div className="mb-16 flex flex-wrap">
+                    <div className="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-6/12 lg:pr-6">
                         <div
-                            class="ripple relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
+                            className="ripple relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
                             data-te-ripple-init
                             data-te-ripple-color="light"
                         >
                             <img
                                 src="https://mdbcdn.b-cdn.net/img/new/standard/city/028.jpg"
-                                class="w-full"
+                                className="w-full"
                                 alt="Louvre"
                             />
                             <a href="#!">
-                                <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+                                <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
                             </a>
                         </div>
                     </div>
 
-                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pl-6">
-                        <h3 class="mb-4 text-2xl font-bold">
-                            That's the news!
+                    <div className="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pl-6">
+                        <h3 className="mb-4 text-2xl font-bold">
+                            Thats the news!
                         </h3>
-                        <div class="mb-4 flex items-center text-sm font-medium text-danger dark:text-danger-500">
+                        <div className="mb-4 flex items-center text-sm font-medium text-danger dark:text-danger-500">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke-width="2"
                                 stroke="currentColor"
-                                class="mr-2 h-5 w-5"
+                                className="mr-2 h-5 w-5"
                             >
                                 <path
                                     stroke-linecap="round"
@@ -45,16 +45,16 @@ export default function Proyects() {
                             </svg>
                             Travels
                         </div>
-                        <p class="mb-6 text-sm text-neutral-500 dark:text-neutral-400">
+                        <p className="mb-6 text-sm text-neutral-500 dark:text-neutral-400">
                             Published <u>14.01.2022</u> by
                             <a href="#!">Lisa McCartney</a>
                         </p>
-                        <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                        <p className="mb-6 text-neutral-500 dark:text-neutral-300">
                             Ut pretium ultricies dignissim. Sed sit amet mi eget
                             urna placerat vulputate. Ut vulputate est non quam
                             dignissim elementum. Donec a ullamcorper diam.
                         </p>
-                        <p class="text-neutral-500 dark:text-neutral-300">
+                        <p className="text-neutral-500 dark:text-neutral-300">
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Ea quae nulla saepe rerum aspernatur odio amet
                             perferendis tempora mollitia? Ratione unde magni
@@ -64,36 +64,36 @@ export default function Proyects() {
                     </div>
                 </div>
 
-                <div class="mb-16 flex flex-wrap lg:flex-row-reverse">
-                    <div class="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-6/12 lg:pl-6">
+                <div className="mb-16 flex flex-wrap lg:flex-row-reverse">
+                    <div className="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-6/12 lg:pl-6">
                         <div
-                            class="ripple relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
+                            className="ripple relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
                             data-te-ripple-init
                             data-te-ripple-color="light"
                         >
                             <img
                                 src="https://mdbcdn.b-cdn.net/img/new/standard/city/033.jpg"
-                                class="w-full"
+                                className="w-full"
                                 alt="Louvre"
                             />
                             <a href="#!">
-                                <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+                                <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
                             </a>
                         </div>
                     </div>
 
-                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pr-6">
-                        <h3 class="mb-4 text-2xl font-bold">
+                    <div className="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pr-6">
+                        <h3 className="mb-4 text-2xl font-bold">
                             Exhibition in Paris
                         </h3>
-                        <div class="mb-4 flex items-center text-sm font-medium text-primary dark:text-primary-400">
+                        <div className="mb-4 flex items-center text-sm font-medium text-primary dark:text-primary-400">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke-width="2"
                                 stroke="currentColor"
-                                class="mr-2 h-4 w-4"
+                                className="mr-2 h-4 w-4"
                             >
                                 <path
                                     stroke-linecap="round"
@@ -103,11 +103,11 @@ export default function Proyects() {
                             </svg>
                             Art
                         </div>
-                        <p class="mb-6 text-sm text-neutral-500 dark:text-neutral-400">
+                        <p className="mb-6 text-sm text-neutral-500 dark:text-neutral-400">
                             Published <u>12.01.2022</u> by
                             <a href="#!">Anna Doe</a>
                         </p>
-                        <p class="text-neutral-500 dark:text-neutral-300">
+                        <p className="text-neutral-500 dark:text-neutral-300">
                             Duis sagittis, turpis in ullamcorper venenatis,
                             ligula nibh porta dui, sit amet rutrum enim massa in
                             ante. Curabitur in justo at lorem laoreet ultricies.
@@ -126,36 +126,36 @@ export default function Proyects() {
                     </div>
                 </div>
 
-                <div class="flex flex-wrap">
-                    <div class="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-6/12 lg:pr-6">
+                <div className="flex flex-wrap">
+                    <div className="mb-6 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-6/12 lg:pr-6">
                         <div
-                            class="ripple relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
+                            className="ripple relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
                             data-te-ripple-init
                             data-te-ripple-color="light"
                         >
                             <img
                                 src="https://mdbcdn.b-cdn.net/img/new/standard/city/079.jpg"
-                                class="w-full"
+                                className="w-full"
                                 alt="Louvre"
                             />
                             <a href="#!">
-                                <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
+                                <div className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
                             </a>
                         </div>
                     </div>
 
-                    <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pl-6">
-                        <h3 class="mb-4 text-2xl font-bold">
+                    <div className="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pl-6">
+                        <h3 className="mb-4 text-2xl font-bold">
                             Stock market boom
                         </h3>
-                        <div class="mb-4 flex items-center text-sm font-medium text-yellow-600">
+                        <div className="mb-4 flex items-center text-sm font-medium text-yellow-600">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke-width="2"
                                 stroke="currentColor"
-                                class="mr-2 h-5 w-5"
+                                className="mr-2 h-5 w-5"
                             >
                                 <path
                                     stroke-linecap="round"
@@ -165,11 +165,11 @@ export default function Proyects() {
                             </svg>
                             Business
                         </div>
-                        <p class="mb-6 text-sm text-neutral-500 dark:text-neutral-400">
+                        <p className="mb-6 text-sm text-neutral-500 dark:text-neutral-400">
                             Published <u>10.01.2022</u> by
                             <a href="#!">Joe Svan</a>
                         </p>
-                        <p class="text-neutral-500 dark:text-neutral-300">
+                        <p className="text-neutral-500 dark:text-neutral-300">
                             Sed sollicitudin purus sed nulla dignissim
                             ullamcorper. Aenean tincidunt vulputate libero, nec
                             imperdiet sapien pulvinar id. Nullam scelerisque

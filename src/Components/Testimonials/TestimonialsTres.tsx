@@ -2,7 +2,7 @@ export default function TestimonialsTres() {
     return (
         <div className="container my-24 mx-auto md:px-6">
             <section className="mb-32 text-center">
-                <h2 className="mb-12 text-3xl font-bold">Testimonials</h2>
+                <h2 className="mb-12 text-3xl font-bold">Testimonios</h2>
 
                 <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
                     <div className="mb-12 md:mb-0">

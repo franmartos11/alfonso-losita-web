@@ -5,10 +5,8 @@ import { useRef } from "react";
 const Example = () => {
     return (
         <div className="">
-            <div className="flex h-48 items-center justify-center">
-                <span className="font-semibold uppercase text-neutral-900">
-                    Scrolea Para Descubrir Mas
-                </span>
+            <div className="flex h-0 items-center justify-center">
+                
             </div>
             <HorizontalScrollCarousel />
         </div>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function CarrouselMamado() {
     return (
         <section className="bg-white dark:bg-gray-900">
@@ -217,12 +219,12 @@ export default function CarrouselMamado() {
                 </div>
             </div>
             <div className="flex items-center justify-center py-6 ">
-                <a
-                    href="#"
+                <Link
+                    href="/proyects"
                     className="mt-8 inline-block rounded border border-blue-950 bg-blue-950 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-blue-950 focus:outline-none focus:ring active:text-blue-950"
                 >
                     Ver Proyectos
-                </a>
+                </Link>
             </div>
         </section>
     );

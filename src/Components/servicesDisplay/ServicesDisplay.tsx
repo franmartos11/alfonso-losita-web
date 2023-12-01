@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ServicesDisplay() {
     return (
         <section className="bg-gray-900 text-white ">
@@ -222,12 +224,12 @@ export default function ServicesDisplay() {
                 </div>
 
                 <div className="mt-12 text-center">
-                    <a
-                        href="#"
+                    <Link
+                        href="/contact"
                         className="inline-block rounded bg-blue-700 px-12 py-3 text-sm font-medium text-white transition hover:bg-blue-950 focus:outline-none focus:ring focus:ring-yellow-400"
                     >
                         Contactame
-                    </a>
+                    </Link>
                 </div>
             </div>
         </section>

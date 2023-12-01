@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Card() {
     return (
         <section className="py-16">
@@ -31,12 +33,12 @@ export default function Card() {
                                 armoniosos con su entorno.
                             </p>
 
-                            <a
-                                href="#"
+                            <Link
+                                href="/contact"
                                 className="mt-8 inline-block rounded border border-blue-950 bg-blue-950 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-blue-950 focus:outline-none focus:ring active:text-blue-950"
                             >
                                 Contactame
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

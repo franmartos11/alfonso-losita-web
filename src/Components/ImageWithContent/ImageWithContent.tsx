@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ImageWithContent() {
     return (
         <section>
@@ -25,12 +27,12 @@ export default function ImageWithContent() {
                             sino también armoniosos con su entorno.
                         </p>
 
-                        <a
-                            href="#"
+                        <Link
+                            href="/contact"
                             className="mt-8 inline-block rounded border-blue-950 bg-blue-950 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-blue-950 focus:outline-none focus:ring active:text-blue-950"
                         >
                             Contactame
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

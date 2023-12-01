@@ -1,46 +1,3 @@
-import { motion } from "framer-motion";
-import { useEffect, useRef, useState } from "react";
-
-const HeaderProyect = () => {
-  return (
-    <section className="w-full px-8 py-[10rem] grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
-      <div>
-        <span className="block mb-4 text-xs md:text-sm text-indigo-500 font-medium">
-          Mis Trabajos
-        </span>
-        <h3 className="text-4xl md:text-6xl font-semibold">
-          Conoce Sobre Mis Proyectos
-        </h3>
-        <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nobis in
-          error repellat voluptatibus ad.
-        </p>
-        <button className="bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-600 active:scale-95">
-          Contactame
-        </button>
-      </div>
-      <ShuffleGrid />
-    </section>
-  );
-};
-
-const shuffle = (array) => {
-  let currentIndex = array?.length,
-    randomIndex;
-
-  while (currentIndex != 0) {
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex],
-      array[currentIndex],
-    ];
-  }
-
-  return array;
-};
-
 const squareData = [
   {
     id: 1,
@@ -107,9 +64,69 @@ const squareData = [
     src: "https://26329602f.blogs.upv.es/files/2023/01/infraestructura-wide.jpg",
   },
 ];
+import { motion } from "framer-motion";
+import React from "react";
+import { useEffect, useRef, useState } from "react";
+
+const HeaderProyect = () => {
+  return (
+    <section className="w-full px-8 py-[10rem] grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
+      <div>
+        <span className="block mb-4 text-xs md:text-sm text-indigo-500 font-medium">
+          Mis Trabajos
+        </span>
+        <h3 className="text-4xl md:text-6xl font-semibold">
+          Conoce Sobre Mis Proyectos
+        </h3>
+        <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nobis in
+          error repellat voluptatibus ad.
+        </p>
+        <button className="bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-600 active:scale-95">
+          Contactame
+        </button>
+      </div>
+      <ShuffleGrid />
+    </section>
+  );
+};
+
+interface Square {
+  id: number;
+  src: string;
+}
+
+const shuffle = ({ array }: { array: Square[] }): Square[] => {
+  if (!array || !Array.isArray(array) || array.length === 0) {
+    console.error("Invalid array provided for shuffling");
+    return [];
+  }
+
+  let currentIndex = array.length;
+  let randomIndex;
+
+  while (currentIndex !== 0) {
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    if (
+      typeof array[currentIndex] !== "undefined" &&
+      typeof array[randomIndex] !== "undefined"
+    ) {
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex],
+        array[currentIndex],
+      ];
+    }
+  }
+
+  return array;
+};
+
+
 
 const generateSquares = () => {
-  return shuffle(squareData).map((sq) => (
+  return shuffle({ array: squareData }).map((sq) => (
     <motion.div
       key={sq.id}
       layout
@@ -124,24 +141,35 @@ const generateSquares = () => {
 };
 
 const ShuffleGrid = () => {
-  const timeoutRef = useRef(null);
-  const [squares, setSquares] = useState(generateSquares());
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const [squares, setSquares] = useState<React.ReactNode[]>(generateSquares());
 
   useEffect(() => {
-    shuffleSquares();
+    const shuffleSquares = () => {
+      setSquares(generateSquares());
 
-    return () => clearTimeout(timeoutRef.current);
+      timeoutRef.current = setTimeout(shuffleSquares, 3000);
+    };
+
+    shuffleSquares(); 
+
+    return () => {
+      
+      timeoutRef.current && clearTimeout(timeoutRef.current);
+    };
   }, []);
 
   const shuffleSquares = () => {
     setSquares(generateSquares());
 
-    timeoutRef.current = setTimeout(shuffleSquares, 3000);
+    timeoutRef.current = setTimeout(shuffleSquares, 5000);
   };
 
   return (
     <div className="grid grid-cols-4 grid-rows-4 h-[450px] gap-1">
-      {squares.map((sq) => sq)}
+      {squares.map((sq, index) => (
+        <React.Fragment key={index}>{sq}</React.Fragment>
+      ))}
     </div>
   );
 };

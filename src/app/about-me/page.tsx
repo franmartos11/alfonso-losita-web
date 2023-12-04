@@ -1,8 +1,10 @@
 "use client";
+import AboutUsStudy from "@/Components/AboutUsStudy/AboutUsStudy";
 import Contact from "@/Components/Contact/Contact";
 import DobleImg from "@/Components/DobleImagenTexto/DobleImg";
 import Nav from "@/Components/HeaderNav/Nav";
 import ImageWithContent from "@/Components/ImageWithContent/ImageWithContent";
+import TransitionCard from "@/Components/TransitionCard/TransitionCard";
 import AboutUsHeader from "@/Components/about-us-header/AboutUsHeader";
 import AboutUsHeaderV2 from "@/Components/about-us-header/AboutUsHeaderV2";
 import AboutUsHEADERv3 from "@/Components/about-us-header/AboutUsHeaderV3";
@@ -16,16 +18,8 @@ import ServicesDisplay from "@/Components/servicesDisplay/ServicesDisplay";
 export default function AboutUs() {
     return (
         <>
-            <Nav></Nav>
-            <AboutUsHEADERv3></AboutUsHEADERv3>
-            <HorizontalScrollCarousel></HorizontalScrollCarousel>
-            <DobleImg></DobleImg>
-            <ImageWithContent></ImageWithContent>
-            <ServicesDisplay></ServicesDisplay>
-            <Card></Card>
-            <Contact></Contact>
-            
-            <Footer></Footer>
+            <AboutUsHeader></AboutUsHeader>
+            <AboutUsStudy></AboutUsStudy>
         </>
     );
 }

@@ -21,9 +21,10 @@ export default function Home() {
 
             <Card></Card>
             <ServicesDisplay></ServicesDisplay>
+            <ImageWithContent></ImageWithContent>
             <HorizontalScrollCarousel></HorizontalScrollCarousel>
 
-            <ImageWithContent></ImageWithContent>
+            
             <CarrouselMamado></CarrouselMamado>
 
             <TestimonialsCustom></TestimonialsCustom>

@@ -28,7 +28,7 @@ export default function AboutUsHEADERv3() {
                         </linearGradient>
                     </defs>
                     <path
-                        fill="url(#sw-gradient-light)"
+                        fill="url(#sw-gradient-dark)"
                         d="M -0.664 3.46 C -0.664 3.46 405.288 15.475 461.728 21.285 C 601.037 35.625 672.268 76.086 701.056 97.646 C 756.056 138.838 797.267 216.257 857.745 245.156 C 885.704 258.516 980.334 280.547 1048.511 268.826 C 1121.622 256.256 1199.864 226.267 1214.176 220.176 C 1241.273 208.643 1280.201 191.509 1343.494 179.436 C 1434.325 162.111 1439.504 196.099 1439.503 183.204 C 1439.502 161.288 1440 0 1440 0 L 1360 0 C 1280 0 1120 0 960 0 C 800 0 640 0 480 0 C 320 0 160 0 80 0 L 0 0 L -0.664 3.46 Z"
                     ></path>
                 </svg>
@@ -64,7 +64,7 @@ export default function AboutUsHEADERv3() {
                 </svg>
             </span>
 
-            <div className="px-6 py-12 text-center md:px-12 lg:my-12 lg:text-left">
+            <div className="px-6 py-12 pt-[7rem] text-center md:px-12 lg:my-12 lg:text-left">
                 <div className="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
                     <div className="grid items-center gap-12 lg:grid-cols-2">
                         <div className="mt-12 lg:mt-0">
@@ -134,7 +134,7 @@ export default function AboutUsHEADERv3() {
                         <div className="mb-12 lg:mb-0">
                             <img
                                 src="https://media.istockphoto.com/id/1364917563/es/foto/hombre-de-negocios-sonriendo-con-los-brazos-cruzados-sobre-fondo-blanco.jpg?s=612x612&w=0&k=20&c=NqMHLF8T4RzPaBE_WMnflSGB_1-kZZTQgAkekUxumZg="
-                                className="w-full rounded-lg shadow-lg dark:shadow-black/20"
+                                className="w-full rounded-lg shadow-lg shadow-black/20"
                                 alt=""
                             />
                         </div>

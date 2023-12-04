@@ -2,23 +2,21 @@ import Link from "next/link";
 
 export default function ServicesDisplay() {
     return (
-        <section className="bg-gray-900 text-white ">
+        <section className="dark:bg-gray-900 dark:text-white bg-gray-100 ">
             <div className="mx-auto max-w-screen-xl  px-4 py-10 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
                 <div className="mx-auto max-w-lg text-center">
                     <h2 className="text-3xl font-bold sm:text-6xl text-gray-00  ">
                         Mis Servicios
                     </h2>
-                    <p className="mt-3 mb-10 text-gray-300">
-                        Me enorgullece ofrecer una gama completa de servicios
-                        diseñados para transformar sueños en realidades urbanas
-                        vibrantes y sostenibles.Descubre cómo podemos llevar tu visión más
+                    <p className="mt-3 mb-10 dark:text-gray-300 text-gray-800">
+                        Descubre cómo podemos llevar tu visión más
                         allá de las expectativas.
                     </p>
                 </div>
 
                 <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                     <a
-                        className="block rounded-sm border border-gray-800 p-8 shadow-xl transition hover:border-blue-950 hover:shadow-blue-950"
+                        className="block rounded-sm border bg-gray-900 border-gray-800 p-8 shadow-xl transition hover:border-blue-950 hover:shadow-blue-950"
                         href="/services/digital-campaigns"
                     >
                         <svg
@@ -52,7 +50,7 @@ export default function ServicesDisplay() {
                     </a>
 
                     <a
-                        className="block rounded-sm border border-gray-800 p-8 shadow-xl transition hover:border-blue-950 hover:shadow-blue-950"
+                        className="block rounded-sm border bg-gray-900 border-gray-800 p-8 shadow-xl transition hover:border-blue-950 hover:shadow-blue-950"
                         href="/services/digital-campaigns"
                     >
                         <svg
@@ -85,7 +83,7 @@ export default function ServicesDisplay() {
                     </a>
 
                     <a
-                        className="block rounded-sm border border-gray-800 p-8 shadow-xl transition hover:border-blue-950 hover:shadow-blue-950"
+                        className="block rounded-sm border bg-gray-900 border-gray-800 p-8 shadow-xl transition hover:border-blue-950 hover:shadow-blue-950"
                         href="/services/digital-campaigns"
                     >
                         <svg
@@ -119,7 +117,7 @@ export default function ServicesDisplay() {
                     </a>
 
                     <a
-                        className="block rounded-sm border border-gray-800 p-8 shadow-xl transition hover:border-blue-950 hover:shadow-blue-950"
+                        className="block rounded-sm border bg-gray-900 border-gray-800 p-8 shadow-xl transition hover:border-blue-950 hover:shadow-blue-950"
                         href="/services/digital-campaigns"
                     >
                         <svg
@@ -153,7 +151,7 @@ export default function ServicesDisplay() {
                     </a>
 
                     <a
-                        className="block rounded-sm border border-gray-800 p-8 shadow-xl transition  hover:border-blue-950 hover:shadow-blue-950"
+                        className="block rounded-sm border bg-gray-900 border-gray-800 p-8 shadow-xl transition  hover:border-blue-950 hover:shadow-blue-950"
                         href="/services/digital-campaigns"
                     >
                         <svg
@@ -188,7 +186,7 @@ export default function ServicesDisplay() {
                     </a>
 
                     <a
-                        className="block rounded-sm border border-gray-800 p-8 shadow-xl transition hover:border-blue-950 hover:shadow-blue-950"
+                        className="block rounded-sm border bg-gray-900 border-gray-800 p-8 shadow-xl transition hover:border-blue-950 hover:shadow-blue-950"
                         href="/services/digital-campaigns"
                     >
                         <svg
@@ -208,7 +206,7 @@ export default function ServicesDisplay() {
                             />
                         </svg>
 
-                        <h2 className="mt-4 text-xl font-bold text-white">
+                        <h2 className="mt-4 text-xl font-bold  text-white">
                             Innovación Integrada
                         </h2>
 
@@ -226,7 +224,7 @@ export default function ServicesDisplay() {
                 <div className="mt-12 text-center">
                     <Link
                         href="/contact"
-                        className="inline-block rounded bg-blue-700 px-12 py-3 text-sm font-medium text-white transition hover:bg-blue-950 focus:outline-none focus:ring focus:ring-yellow-400"
+                        className="inline-block rounded bg-gray-900 px-[4rem] py-3 text-sm font-medium text-white transition hover:bg-blue-950 focus:outline-none focus:ring focus:ring-yellow-400"
                     >
                         Contactame
                     </Link>

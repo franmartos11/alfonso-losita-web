@@ -75,9 +75,9 @@ export default function AboutUsHEADERv3() {
                                 </span>
                             </h1>
                             <p className="mb-0 text-gray-900">
-                                Soy un desarrollador inmobiliario especializado en
-                                urbanización que ofrece calidad, excelencia y
-                                tranquilidad.
+                            Como desarrollador inmobiliario especializado en urbanización,
+                            me dedico a proporcionar un estándar de calidad excepcional
+                            que garantiza excelencia y tranquilidad.
                             </p>
                             <div className="flex items-center space-x-4 m-4 mx-0 ">
                                 <a

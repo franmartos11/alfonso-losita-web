@@ -19,12 +19,23 @@ export default function ImageWithContent() {
                         </h2>
 
                         <p className="mt-4 text-gray-300">
-                            Me enorgullece ofrecer servicios de desarrollo de
-                            urbanizaciones que van desde la planificación
-                            inicial hasta la ejecución impecable. Nos destacamos
-                            por fusionar diseño moderno y funcionalidad, creando
-                            entornos que no solo son estéticamente atractivos,
-                            sino también armoniosos con su entorno.
+                                Como desarrollador inmobiliario especializado en urbanización,
+                            mi compromiso es crear entornos residenciales que destaquen por su calidad,
+                            excelencia y tranquilidad. Cada proyecto que emprendo se caracteriza por 
+                            cumplir con los más altos estándares de construcción y diseño, asegurando 
+                            así un estilo de vida excepcional para quienes eligen formar 
+                            parte de estas comunidades.
+
+                            <br/>
+                            <br/>
+
+                                Desde la cuidadosa planificación urbana hasta la selección estratégica 
+                            de ubicaciones, me esfuerzo por ofrecer más que simples edificaciones;
+                            busco proporcionar hogares que reflejen un equilibrio armonioso con su
+                            entorno. La atención meticulosa a los detalles y el compromiso con prácticas
+                            sostenibles son elementos esenciales que contribuyen a la creación de espacios
+                            habitables que no solo satisfacen las necesidades de los residentes,
+                            sino que también promueven un bienestar duradero en la comunidad.
                         </p>
 
                         <Link

@@ -79,7 +79,7 @@ const HeaderProyect = () => {
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nobis in
           error repellat voluptatibus ad.
         </p>
-        <button className="bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-600 active:scale-95">
+        <button className="bg-gray-800 text-white font-medium py-2 px-4 rounded transition-all hover:bg-gray-950 active:scale-95">
           Contactame
         </button>
       </div>

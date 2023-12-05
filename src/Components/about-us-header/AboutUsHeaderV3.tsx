@@ -1,7 +1,7 @@
 export default function AboutUsHEADERv3() {
     return (
-        <section className="mb-40">
-            <span className="[&>svg]:absolute [&>svg]:-z-10 [&>svg]:hidden [&>svg]:h-[560px] [&>svg]:w-full [&>svg]:lg:block">
+        <section className="mb-[16rem] ">
+            <span className=" [&>svg]:absolute [&>svg]:-z-10 [&>svg]:hidden [&>svg]:h-[560px] [&>svg]:w-full [&>svg]:lg:block">
                 <svg
                     data-name="Layer 1"
                     xmlns="http://www.w3.org/2000/svg"

@@ -224,7 +224,7 @@ export default function ServicesDisplay() {
                 <div className="mt-12 text-center">
                     <Link
                         href="/contact"
-                        className="inline-block rounded bg-gray-900 px-[4rem] py-3 text-sm font-medium text-white transition hover:bg-blue-950 focus:outline-none focus:ring focus:ring-yellow-400"
+                        className="inline-block rounded bg-blue-950 px-[4rem] py-3 text-sm font-medium text-white transition hover:bg-blue-900 focus:outline-none focus:ring focus:ring-yellow-400"
                     >
                         Contactame
                     </Link>

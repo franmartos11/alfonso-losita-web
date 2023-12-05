@@ -72,9 +72,6 @@ const HeaderProyect = () => {
   return (
     <section className="w-full px-8 py-[10rem] grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
       <div>
-        <span className="block mb-4 text-xs md:text-sm text-indigo-500 font-medium">
-          Mis Trabajos
-        </span>
         <h3 className="text-4xl md:text-6xl font-semibold">
           Conoce Sobre Mis Proyectos
         </h3>

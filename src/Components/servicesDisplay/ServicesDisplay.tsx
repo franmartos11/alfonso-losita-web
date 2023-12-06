@@ -8,7 +8,7 @@ export default function ServicesDisplay() {
                     <h2 className="text-3xl font-bold sm:text-6xl text-gray-00  ">
                         Mis Servicios
                     </h2>
-                    <p className="mt-3 mb-16 dark:text-gray-300 text-gray-800">
+                    <p className="mt-3 mb-16 text-gray-300 ">
                         Descubre cómo podemos llevar tu visión más
                         allá de las expectativas.
                     </p>

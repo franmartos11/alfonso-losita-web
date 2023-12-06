@@ -40,13 +40,13 @@ export default function TestimonialsCustom() {
     const currentTestimonial = testimonialsData[currentTestimonialIndex];
 
     return (
-        <section className="bg-white dark:bg-gray-900">
+        <section className="bg-gray-900">
             <div className="relative flex">
                 <div className="min-h-screen lg:w-1/3"></div>
-                <div className="hidden w-3/4 min-h-screen bg-gray-100 dark:bg-gray-800 lg:block"></div>
+                <div className="hidden w-3/4 min-h-screen bg-gray-800 lg:block"></div>
 
                 <div className="container flex flex-col justify-center w-full min-h-screen px-6 py-10 mx-auto lg:absolute lg:inset-x-0">
-                    <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
+                    <h1 className="text-2xl font-semibold  capitalize lg:text-3xl text-white">
                         Lo que nuestros{" "}
                         <span className="text-blue-500">clientes</span> <br />{" "}
                         dicen de nosotros
@@ -60,18 +60,18 @@ export default function TestimonialsCustom() {
                         />
 
                         <div className="mt-8 lg:px-10 lg:mt-0">
-                            <h1 className="text-2xl font-semibold text-gray-800 dark:text-white lg:w-72">
+                            <h1 className="text-2xl font-semibold text-white lg:w-72">
                                 {currentTestimonial.title}
                             </h1>
 
-                            <p className="max-w-lg mt-6 text-gray-500 dark:text-gray-400">
+                            <p className="max-w-lg mt-6 text-gray-400">
                                 {currentTestimonial.content}
                             </p>
 
                             <h3 className="mt-6 text-lg font-medium text-blue-500">
                                 {currentTestimonial.author}
                             </h3>
-                            <p className="text-gray-600 dark:text-gray-300">
+                            <p className="text-gray-300">
                                 {currentTestimonial.position}
                             </p>
                         </div>
@@ -81,7 +81,7 @@ export default function TestimonialsCustom() {
                         <button
                             title="left arrow"
                             onClick={handlePrevTestimonial}
-                            className="p-2 text-gray-800 transition-colors duration-300 border rounded-full rtl:-scale-x-100 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-800 hover:bg-gray-100"
+                            className="p-2  transition-colors duration-300 border rounded-full rtl:-scale-x-100 border-gray-700 text-gray-200 hover:bg-gray-800 "
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +102,7 @@ export default function TestimonialsCustom() {
                         <button
                             title="right arrow"
                             onClick={handleNextTestimonial}
-                            className="p-2 text-gray-800 transition-colors duration-300 border rounded-full rtl:-scale-x-100 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-800 lg:mx-6 hover:bg-gray-100"
+                            className="p-2  transition-colors duration-300 border rounded-full rtl:-scale-x-100 border-gray-700 text-gray-200 hover:bg-gray-800 lg:mx-6"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"

@@ -1,63 +1,63 @@
 export default function ContactCardImg() {
     return (
-        <section className="min-h-screen bg-white dark:bg-gray-800">
+        <section className="min-h-screen bg-gray-800">
             <div className="container px-6 py-10 mx-auto">
                 <div className="lg:flex lg:items-center lg:-mx-10">
                     <div className="lg:w-1/2 lg:mx-10">
-                        <h1 className="text-3xl font-semibold text-gray-800 capitalize dark:text-white lg:text-5xl">
+                        <h1 className="text-3xl font-semibold  capitalize text-white lg:text-5xl">
                             Contactame
                         </h1>
 
-                        <p className="mt-4 text-gray-500 dark:text-gray-400">
+                        <p className="mt-4 text-gray-400">
                             Me encantaria escuchar tus dudas o propuestas
                         </p>
 
                         <form className="mt-12">
                             <div className="-mx-2 md:items-center md:flex">
                                 <div className="flex-1 px-2">
-                                    <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                                    <label className="block mb-2 text-sm text-gray-200">
                                         Nombre Completo
                                     </label>
                                     <input
                                         type="text"
                                         placeholder="John Doe"
-                                        className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                        className="block w-full px-5 py-3 mt-2 border  rounded-md placeholder-gray-600 bg-gray-700 text-gray-300 border-gray-700 focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     />
                                 </div>
 
                                 <div className="flex-1 px-2 mt-4 md:mt-0">
-                                    <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                                    <label className="block mb-2 text-sm text-gray-200">
                                         Direccion Email
                                     </label>
                                     <input
                                         type="email"
                                         placeholder="johndoe@gmail.com"
-                                        className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                        className="block w-full px-5 py-3 mt-2   border  rounded-md placeholder-gray-600 bg-gray-700 text-gray-300 border-gray-700 focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     />
                                 </div>
                                 <div className="flex-1 px-2 mt-4 md:mt-0">
-                                    <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                                    <label className="block mb-2 text-sm text-gray-200">
                                         Numero Telefono
                                     </label>
                                     <input
                                         type="text"
                                         placeholder="54 3518753260"
-                                        className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                        className="block w-full px-5 py-3 mt-2  border  rounded-md placeholder-gray-600 bg-gray-700 text-gray-300 border-gray-700 focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     />
                                 </div>
                             </div>
 
                             <div className="w-full mt-4">
-                                <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                                <label className="block mb-2 text-sm text-gray-200">
                                     Mensaje
                                 </label>
                                 <textarea
-                                    className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-56 dark:placeholder-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                    className="block w-full h-32 px-5 py-3 mt-2  border  rounded-md md:h-56 placeholder-gray-600 bg-gray-700 text-gray-300 border-gray-700 focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     placeholder="Message"
                                 ></textarea>
                             </div>
 
-                            <button className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-gray-900 rounded-md hover:bg-gray-950 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                            <button className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform rounded-md bg-gray-950 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                                 get in touch
                             </button>
                         </form>
@@ -74,7 +74,7 @@ export default function ContactCardImg() {
                             <p className="flex items-start -mx-2">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    className="w-6 h-6 mx-2 text-blue-500 dark:text-blue-400"
+                                    className="w-6 h-6 mx-2 text-blue-400 "
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     stroke="currentColor"
@@ -92,7 +92,7 @@ export default function ContactCardImg() {
                                     />
                                 </svg>
 
-                                <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
+                                <span className="mx-2  truncate w-72 text-gray-400">
                                     Cecilia Chapman 711-2880 Nulla St. Mankato
                                     Mississippi 96522
                                 </span>
@@ -101,7 +101,7 @@ export default function ContactCardImg() {
                             <p className="flex items-start -mx-2 ">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    className="w-6 h-6 mx-2 text-blue-500 dark:text-blue-400"
+                                    className="w-6 h-6 mx-2 text-blue-400"
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     stroke="currentColor"
@@ -114,7 +114,7 @@ export default function ContactCardImg() {
                                     />
                                 </svg>
 
-                                <span className="mx-2 text-gray-700 truncate w-72 ms:w-50 dark:text-gray-400">
+                                <span className="mx-2  truncate w-72 ms:w-50 text-gray-400">
                                     (257) 563-7401
                                 </span>
                             </p>
@@ -122,7 +122,7 @@ export default function ContactCardImg() {
                             <p className="flex items-start -mx-2">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    className="w-6 h-6 mx-2 text-blue-500 dark:text-blue-400"
+                                    className="w-6 h-6 mx-2 text-blue-400"
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     stroke="currentColor"
@@ -135,20 +135,20 @@ export default function ContactCardImg() {
                                     />
                                 </svg>
 
-                                <span className="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
+                                <span className="mx-2  truncate w-72 text-gray-400">
                                     acb@example.com
                                 </span>
                             </p>
                         </div>
 
                         <div className="mt-6 w-80 md:mt-8">
-                            <h3 className="text-gray-600 dark:text-gray-300 ">
-                                Follow us
+                            <h3 className="text-gray-300 ">
+                                Sigueme
                             </h3>
 
                             <div className="flex mt-4 -mx-1.5 ">
                                 <a
-                                    className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500"
+                                    className="mx-1.5 hover:text-blue-400 text-gray-400 transition-colors duration-300 transform "
                                     href="#"
                                 >
                                     <svg
@@ -162,7 +162,7 @@ export default function ContactCardImg() {
                                 </a>
 
                                 <a
-                                    className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500"
+                                    className="mx-1.5 hover:text-blue-400 text-gray-400 transition-colors duration-300 transform "
                                     href="#"
                                 >
                                     <svg
@@ -187,7 +187,7 @@ export default function ContactCardImg() {
                                 </a>
 
                                 <a
-                                    className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500"
+                                    className="mx-1.5 hover:text-blue-400 text-gray-400 transition-colors duration-300 transform"
                                     href="#"
                                 >
                                     <svg
@@ -204,7 +204,7 @@ export default function ContactCardImg() {
                                 </a>
 
                                 <a
-                                    className="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500"
+                                    className="mx-1.5 hover:text-blue-400 text-gray-400 transition-colors duration-300 transform "
                                     href="#"
                                 >
                                     <svg

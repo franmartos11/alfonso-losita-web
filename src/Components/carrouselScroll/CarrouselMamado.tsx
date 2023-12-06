@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function CarrouselMamado() {
     return (
-        <section className="bg-white dark:bg-gray-900">
-            <div className="h-[39rem] bg-gray-100 dark:bg-gray-800">
+        <section className="bg-gray-900">
+            <div className="h-[39rem] bg-gray-800">
                 <div className="container px-6 pt-7 pb-0 mx-auto">
-                    <h1 className="text-2xl mb-4 font-semibold text-center text-gray-800 capitalize lg:text-6xl dark:text-white">
+                    <h1 className="text-2xl mb-4 font-semibold text-center  capitalize lg:text-6xl text-white">
                         Mis Proyectos
                     </h1>
                     
@@ -15,7 +15,7 @@ export default function CarrouselMamado() {
                         <span className="inline-block w-1 h-1 bg-blue-500 rounded-full"></span>
                     </div>
 
-                    <p className="max-w-2xl mx-auto mt-6 text-center text-gray-500 dark:text-gray-300">
+                    <p className="max-w-2xl mx-auto mt-6 text-center text-gray-300">
                         Cada proyecto es una historia única de creatividad y
                         eficiencia, donde la excelencia en el diseño se combina
                         con un profundo compromiso con la sostenibilidad y la
@@ -35,18 +35,18 @@ export default function CarrouselMamado() {
                             alt=""
                         />
 
-                        <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+                        <h1 className="mt-4 text-2xl font-semibold  capitalize text-white">
                             Dos Arroyos
                         </h1>
 
-                        <p className="mt-2 text-gray-500 capitalize dark:text-gray-300">
+                        <p className="mt-2  capitalize text-gray-300">
                             Desarrollo Montaña
                         </p>
 
                         <div className="flex mt-3 -mx-2">
                             <a
                                 href="#"
-                                className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                                className="mx-2  transition-colors duration-300 text-gray-300 hover:text-blue-500"
                                 aria-label="Reddit"
                             >
                                 <svg
@@ -61,7 +61,7 @@ export default function CarrouselMamado() {
 
                             <a
                                 href="#"
-                                className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                                className="mx-2  transition-colors duration-300 text-gray-300 hover:text-blue-500 "
                                 aria-label="Facebook"
                             >
                                 <svg
@@ -76,7 +76,7 @@ export default function CarrouselMamado() {
 
                             <a
                                 href="#"
-                                className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                                className="mx-2  transition-colors duration-300 text-gray-300 hover:text-blue-500"
                                 aria-label="Github"
                             >
                                 <svg
@@ -98,18 +98,18 @@ export default function CarrouselMamado() {
                             alt=""
                         />
 
-                        <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+                        <h1 className="mt-4 text-2xl font-semibold  capitalize text-white">
                             Dos Arroyos
                         </h1>
 
-                        <p className="mt-2 text-gray-500 capitalize dark:text-gray-300">
+                        <p className="mt-2  capitalize text-gray-300">
                             Desarrollo Montaña
                         </p>
 
                         <div className="flex mt-3 -mx-2">
                             <a
                                 href="#"
-                                className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                                className="mx-2  transition-colors duration-300 text-gray-300 hover:text-blue-500 "
                                 aria-label="Reddit"
                             >
                                 <svg
@@ -124,7 +124,7 @@ export default function CarrouselMamado() {
 
                             <a
                                 href="#"
-                                className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                                className="mx-2  transition-colors duration-300 text-gray-300 hover:text-blue-500 "
                                 aria-label="Facebook"
                             >
                                 <svg
@@ -139,7 +139,7 @@ export default function CarrouselMamado() {
 
                             <a
                                 href="#"
-                                className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                                className="mx-2  transition-colors duration-300 text-gray-300 hover:text-blue-500"
                                 aria-label="Github"
                             >
                                 <svg
@@ -161,18 +161,18 @@ export default function CarrouselMamado() {
                             alt=""
                         />
 
-                        <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+                        <h1 className="mt-4 text-2xl font-semibold  capitalize text-white">
                             Dos Arroyos
                         </h1>
 
-                        <p className="mt-2 text-gray-500 capitalize dark:text-gray-300">
+                        <p className="mt-2  capitalize text-gray-300">
                             Desarrollo Montaña
                         </p>
 
                         <div className="flex mt-3 -mx-2">
                             <a
                                 href="#"
-                                className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                                className="mx-2  transition-colors duration-300 text-gray-300 hover:text-blue-500"
                                 aria-label="Reddit"
                             >
                                 <svg
@@ -187,7 +187,7 @@ export default function CarrouselMamado() {
 
                             <a
                                 href="#"
-                                className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                                className="mx-2  transition-colors duration-300 text-gray-300 hover:text-blue-500"
                                 aria-label="Facebook"
                             >
                                 <svg
@@ -202,7 +202,7 @@ export default function CarrouselMamado() {
 
                             <a
                                 href="#"
-                                className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
+                                className="mx-2 transition-colors duration-300 text-gray-300 hover:text-blue-500 "
                                 aria-label="Github"
                             >
                                 <svg

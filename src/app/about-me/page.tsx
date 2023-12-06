@@ -1,4 +1,6 @@
 "use client";
+import AboutMeEvents from "@/Components/AboutMeEvents/AboutMeEvents";
+import AboutMeStudy from "@/Components/AboutMeStudies/AboutMeStudy";
 import AboutUsStudy from "@/Components/AboutUsStudy/AboutUsStudy";
 import Contact from "@/Components/Contact/Contact";
 import DobleImg from "@/Components/DobleImagenTexto/DobleImg";
@@ -19,7 +21,16 @@ export default function AboutUs() {
     return (
         <>
             <AboutUsHeader></AboutUsHeader>
-            <AboutUsStudy></AboutUsStudy>
+            <div className="h-[10rem] pt-10 flex items-center justify-center bg-gray-900">
+                <p className="text-3xl font-bold sm:text-6xl text-white ">Mi Trayectoria</p>
+            </div>
+            <AboutMeStudy></AboutMeStudy>
+            <div className="h-[12rem] pt-10 flex items-center justify-center bg-gray-800">
+                <p className="text-3xl font-bold sm:text-6xl text-white ">Eventos</p>
+            </div>
+            <AboutMeEvents></AboutMeEvents>
+            <HorizontalScrollCarousel></HorizontalScrollCarousel>
+            <Contact></Contact>
         </>
     );
 }

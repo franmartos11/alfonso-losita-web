@@ -2,13 +2,13 @@ import Link from "next/link";
 
 export default function ServicesDisplay() {
     return (
-        <section className="dark:bg-gray-900 dark:text-white bg-gray-100 ">
-            <div className="mx-auto max-w-screen-xl  px-4 py-10 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+        <section className="bg-gray-900 text-white  ">
+            <div className="mx-auto max-w-screen-xl  px-4 py-10 sm:py-12 sm:px-6 lg:py-24 lg:px-8">
                 <div className="mx-auto max-w-lg text-center">
                     <h2 className="text-3xl font-bold sm:text-6xl text-gray-00  ">
                         Mis Servicios
                     </h2>
-                    <p className="mt-3 mb-10 dark:text-gray-300 text-gray-800">
+                    <p className="mt-3 mb-16 dark:text-gray-300 text-gray-800">
                         Descubre cómo podemos llevar tu visión más
                         allá de las expectativas.
                     </p>
@@ -221,7 +221,7 @@ export default function ServicesDisplay() {
                     </a>
                 </div>
 
-                <div className="mt-12 text-center">
+                <div className="mt-12 mb-10 text-center">
                     <Link
                         href="/contact"
                         className="inline-block rounded bg-blue-950 px-[4rem] py-3 text-sm font-medium text-white transition hover:bg-blue-900 focus:outline-none focus:ring focus:ring-yellow-400"

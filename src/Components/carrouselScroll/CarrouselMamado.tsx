@@ -4,11 +4,11 @@ export default function CarrouselMamado() {
     return (
         <section className="bg-white dark:bg-gray-900">
             <div className="h-[39rem] bg-gray-100 dark:bg-gray-800">
-                <div className="container px-6 py-10 pb-0 mx-auto">
-                    <h1 className="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">
+                <div className="container px-6 pt-7 pb-0 mx-auto">
+                    <h1 className="text-2xl mb-4 font-semibold text-center text-gray-800 capitalize lg:text-6xl dark:text-white">
                         Mis Proyectos
                     </h1>
-
+                    
                     <div className="flex justify-center mx-auto mt-6">
                         <span className="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
                         <span className="inline-block w-3 h-1 mx-1 bg-blue-500 rounded-full"></span>
@@ -26,8 +26,8 @@ export default function CarrouselMamado() {
                 </div>
             </div>
 
-            <div className="container px-6 py-3 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
-                <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
+            <div className="container px-6 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
+                <div className="grid grid-cols-1 gap-8 mt-0 xl:mt-1 md:grid-cols-2 xl:grid-cols-3">
                     <div className="flex flex-col items-center p-4 border sm:p-6 rounded-sm dark:border-gray-700">
                         <img
                             className="object-cover w-full rounded-sm aspect-square"
@@ -218,10 +218,10 @@ export default function CarrouselMamado() {
                     </div>
                 </div>
             </div>
-            <div className="flex items-center justify-center py-6 ">
+            <div className="flex items-center justify-center pb-8 pt-8 ">
                 <Link
                     href="/proyects"
-                    className="mt-8 inline-block rounded border border-blue-950 bg-blue-950 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-blue-950 focus:outline-none focus:ring active:text-blue-950"
+                    className=" inline-block rounded border border-blue-950 bg-blue-950 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-blue-950 focus:outline-none focus:ring active:text-blue-950"
                 >
                     Ver Proyectos
                 </Link>

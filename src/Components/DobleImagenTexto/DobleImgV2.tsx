@@ -20,7 +20,7 @@ export default function DobleImgV2() {
 							</div>
 						</div>
 						<div className="ml-4">
-							<h4 className="text-lg font-medium leadi text-gray-100">pROYECTO 2 NOMBRE</h4>
+							<h4 className="text-lg font-medium leadi text-gray-100">Cu imperdiet posidonium sed</h4>
 							<p className="mt-2 text-gray-300">Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.</p>
 						</div>
 					</div>

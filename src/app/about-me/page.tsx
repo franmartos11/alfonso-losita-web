@@ -1,6 +1,7 @@
 "use client";
 import AboutMeEvents from "@/Components/AboutMeEvents/AboutMeEvents";
 import AboutMeStudy from "@/Components/AboutMeStudies/AboutMeStudy";
+import AboutMeTimeLine from "@/Components/AboutMeTimeLine/AboutMeTimeLine";
 import AboutUsStudy from "@/Components/AboutUsStudy/AboutUsStudy";
 import Contact from "@/Components/Contact/Contact";
 import DobleImg from "@/Components/DobleImagenTexto/DobleImg";

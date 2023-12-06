@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "@/Components/HeaderNav/Nav";
 import FooterV2 from "@/Components/footer/FooterV2";
-import WhatsAppButton from "@/Components/whatsApp-pop/WhatsappPop";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -19,8 +18,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en">
-            
+        <html lang="en" className="!scroll-smoth">
             <body className={inter.className}>
                 <Nav></Nav>
                 {children}

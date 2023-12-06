@@ -1,13 +1,12 @@
 export default function AboutMeStudy() {
     return (
         <div className="bg-gray-900">
-            <div className="flex w-[85%] mx-auto ">
+            <div className="flex w-[85%] mx-auto  ">
                 <div className="container  mt-24 mb-0 mx-auto md:px-6">
                     <section className="mb-32 ">
                         <h5 className="mb-10 text-gray-200 text-center text-xl font-semibold md:mb-6">
                             Mis Estudios
                         </h5>
-
                         <div className="mb-12  rounded-lg flex flex-wrap md:mb-4 bg-gray-300   mx-auto items-center ">
                             <div className="w-full md:w-2/12 shrink-0 grow-0 basis-auto">
                                 <img
@@ -19,14 +18,10 @@ export default function AboutMeStudy() {
 
                             <div className="w-full md:w-10/12 shrink-0 grow-0 basis-auto md:pl-6">
                                 <p className="mb-3 font-semibold">
-                                    Marta Dolores
+                                    Universidad Siglo 21
                                 </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Distinctio est ab iure
-                                    inventore dolorum consectetur? Molestiae
-                                    aperiam atque quasi consequatur
-                                </p>
+                                <p>Grado en derecho</p>
+                                <p>2012-2017</p>
                             </div>
                         </div>
                         <div className="mb-12 rounded-lg flex flex-wrap md:mb-4 bg-gray-300 mx-auto  ">
@@ -40,14 +35,10 @@ export default function AboutMeStudy() {
 
                             <div className="w-full md:w-10/12 shrink-0 grow-0 basis-auto md:pl-6">
                                 <p className="mb-3 font-semibold">
-                                    Marta Dolores
+                                    Universidad Siglo 21
                                 </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Distinctio est ab iure
-                                    inventore dolorum consectetur? Molestiae
-                                    aperiam atque quasi consequatur
-                                </p>
+                                <p>Posgrado en derecho</p>
+                                <p>2017-2018</p>
                             </div>
                         </div>
 
@@ -62,14 +53,10 @@ export default function AboutMeStudy() {
 
                             <div className="w-full md:w-10/12 shrink-0  grow-0 basis-auto md:pl-6">
                                 <p className="mb-3 font-semibold">
-                                    Valeria Groove
+                                    EUDE Buisiness School
                                 </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Distinctio est ab iure
-                                    inventore dolorum consectetur? Molestiae
-                                    aperiam atque quasi consequatur
-                                </p>
+                                <p>Master of Buisiness Administration - MBA</p>
+                                <p>2020-2021</p>
                             </div>
                         </div>
 
@@ -84,14 +71,10 @@ export default function AboutMeStudy() {
 
                             <div className="w-full md:w-10/12 shrink-0 grow-0 basis-auto md:pl-6">
                                 <p className="mb-3 font-semibold">
-                                    Antonia Velez
+                                    Universidad Torcuato Di Tella
                                 </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Distinctio est ab iure
-                                    inventore dolorum consectetur? Molestiae
-                                    aperiam atque quasi consequatur
-                                </p>
+                                <p>Maestria en Economia Urbana</p>
+                                <p>2023-2025</p>
                             </div>
                         </div>
                     </section>
@@ -113,14 +96,10 @@ export default function AboutMeStudy() {
 
                             <div className="w-full md:w-10/12 shrink-0 grow-0 basis-auto md:pl-6">
                                 <p className="mb-3 font-semibold">
-                                    Marta Dolores
+                                    Dos Arroyos Chacras de Montana
                                 </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Distinctio est ab iure
-                                    inventore dolorum consectetur? Molestiae
-                                    aperiam atque quasi consequatur
-                                </p>
+                                <p>Socio Fundador</p>
+                                <p>2021-Actualidad</p>
                             </div>
                         </div>
                         <div className="mb-12 rounded-lg flex flex-wrap md:mb-4 bg-gray-300 mx-auto  ">
@@ -134,14 +113,10 @@ export default function AboutMeStudy() {
 
                             <div className="w-full md:w-10/12 shrink-0 grow-0 basis-auto md:pl-6">
                                 <p className="mb-3 font-semibold">
-                                    Marta Dolores
+                                    Reserva Arroyo Hondo
                                 </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Distinctio est ab iure
-                                    inventore dolorum consectetur? Molestiae
-                                    aperiam atque quasi consequatur
-                                </p>
+                                <p>Fundador</p>
+                                <p>2020-Actualidad</p>
                             </div>
                         </div>
 
@@ -156,14 +131,10 @@ export default function AboutMeStudy() {
 
                             <div className="w-full md:w-10/12 shrink-0 grow-0 basis-auto md:pl-6">
                                 <p className="mb-3 font-semibold">
-                                    Valeria Groove
+                                    Escribanía Marchini-Lozita
                                 </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Distinctio est ab iure
-                                    inventore dolorum consectetur? Molestiae
-                                    aperiam atque quasi consequatur
-                                </p>
+                                <p>Profesional independiente</p>
+                                <p>2016-2021</p>
                             </div>
                         </div>
 
@@ -178,14 +149,10 @@ export default function AboutMeStudy() {
 
                             <div className="w-full md:w-10/12 shrink-0 grow-0 basis-auto md:pl-6">
                                 <p className="mb-3 font-semibold">
-                                    Antonia Velez
+                                    Escribanía Marchini-Lozita
                                 </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Distinctio est ab iure
-                                    inventore dolorum consectetur? Molestiae
-                                    aperiam atque quasi consequatur
-                                </p>
+                                <p>Profesional independiente</p>
+                                <p>2016-2021</p>
                             </div>
                         </div>
                     </section>

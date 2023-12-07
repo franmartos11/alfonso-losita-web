@@ -6,7 +6,7 @@ export default function FooterV2() {
                     <a href="/">
                         
                         <span className=" w-auto h-7 self-center text-2xl font-semibold whitespace-nowrap text-white">
-                        Alfonso Losita
+                        Alfonso Lozita
                     </span>
                     </a>
 

@@ -11,6 +11,7 @@ import TransitionCard from "@/Components/TransitionCard/TransitionCard";
 import AboutUsHeader from "@/Components/about-us-header/AboutUsHeader";
 import AboutUsHeaderV2 from "@/Components/about-us-header/AboutUsHeaderV2";
 import AboutUsHEADERv3 from "@/Components/about-us-header/AboutUsHeaderV3";
+import AboutUsHeaderV5 from "@/Components/about-us-header/AboutUsHeaderV5";
 import Card from "@/Components/card/Card";
 import HorizontalScrollCarousel from "@/Components/carrusel/HorizontalScrollCarousel";
 import DatosInteres from "@/Components/datosInteres/DatosInteres";

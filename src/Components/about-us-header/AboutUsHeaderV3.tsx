@@ -69,7 +69,7 @@ export default function AboutUsHEADERv3() {
                     <div className="grid items-center gap-12 lg:grid-cols-2">
                         <div className="mt-12 lg:mt-0">
                             <h1 className="mb-10 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl">
-                                Alfonso Losita <br />
+                                Alfonso Lozita <br />
                                 <span className="text-primary text-blue-950">
                                     Urbanizaciones
                                 </span>

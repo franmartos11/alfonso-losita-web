@@ -1,6 +1,6 @@
 export default function AboutUsHeader() {
     return (
-        <div className="bg-white px-6 py-11 text-center  md:px-12 lg:text-left">
+        <div className="bg-white px-6 py-11 text-center  md:px-12 lg:text-left animate-fade-up animate-once animate-duration-[1700ms]">
             <div className="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
                 <div className="grid items-center gap-12 lg:grid-cols-2">
                     <div className="mt-12 lg:mt-0">
@@ -30,7 +30,7 @@ export default function AboutUsHeader() {
                     <div className="mb-12 lg:mb-0">
                         <img
                             src="https://media.licdn.com/dms/image/D4D22AQE3-LVPE9GAzQ/feedshare-shrink_1280/0/1698868435267?e=1704326400&v=beta&t=NKuvWVG0qibMyeb5nLpN3zEJKJW3imdQtwiu_1ElzIQ"
-                            className="w-full rounded-lg shadow-lg dark:shadow-black/20"
+                            className="w-[90%] h-[49rem]  rounded-lg shadow-lg shadow-black/20 object-cover"
                             alt=""
                         />
                     </div>

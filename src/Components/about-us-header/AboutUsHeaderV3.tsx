@@ -64,7 +64,7 @@ export default function AboutUsHEADERv3() {
                 </svg>
             </span>
 
-            <div className="px-6 py-12 pt-[7rem] text-center md:px-12 lg:my-12 lg:text-left">
+            <div className="px-6 py-12 pt-[7rem] text-center md:px-12 lg:my-12 lg:text-left animate-fade-up animate-once animate-duration-[1700ms]">
                 <div className="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
                     <div className="grid items-center gap-12 lg:grid-cols-2">
                         <div className="mt-12 lg:mt-0">

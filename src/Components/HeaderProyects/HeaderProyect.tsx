@@ -70,7 +70,7 @@ import { useEffect, useRef, useState } from "react";
 
 const HeaderProyect = () => {
   return (
-    <section className="w-full px-8 pt-[10rem] pb-[18rem] grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
+    <section className="w-full px-8 pt-[10rem] pb-[18rem] grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto animate-fade-up animate-once animate-duration-[1700ms]">
       <div>
         <h3 className="text-4xl md:text-6xl font-semibold">
           Conoce Sobre Mis Proyectos
@@ -163,7 +163,7 @@ const ShuffleGrid = () => {
   };
 
   return (
-    <div className="grid grid-cols-4 grid-rows-4 h-[450px] gap-1">
+    <div className="grid grid-cols-4 grid-rows-4 h-[450px] gap-1 ">
       {squares.map((sq, index) => (
         <React.Fragment key={index}>{sq}</React.Fragment>
       ))}

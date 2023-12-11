@@ -1,6 +1,6 @@
 export default function AboutUsHEADERv3() {
     return (
-        <section className="mb-[16rem] ">
+        <section className="sm:mb-[1rem] lg:mb-[16rem] ">
             <span className=" [&>svg]:absolute [&>svg]:-z-10 [&>svg]:hidden [&>svg]:h-[560px] [&>svg]:w-full [&>svg]:lg:block">
                 <svg
                     data-name="Layer 1"
@@ -74,12 +74,12 @@ export default function AboutUsHEADERv3() {
                                     Urbanizaciones
                                 </span>
                             </h1>
-                            <p className="mb-0 text-gray-900">
+                            <p className="mb-0 p-2 text-gray-900">
                             Como desarrollador inmobiliario especializado en urbanización,
                             me dedico a proporcionar un estándar de calidad excepcional
                             que garantiza excelencia y tranquilidad.
                             </p>
-                            <div className="flex items-center space-x-4 m-4 mx-0 justify-center sm:justify-center md:justify-start lg:justify-start xl:justify-start ">
+                            <div className="flex items-center space-x-4 m-4 mx-0 justify-center sm:justify-center md:justify-center lg:justify-start xl:justify-start ">
                                 <a
                                     href="/"
                                     className="text-blue-950 transition-colors duration-300 hover:text-deep-purple-accent-400"
@@ -134,7 +134,7 @@ export default function AboutUsHEADERv3() {
                         <div className="mb-12 lg:mb-0">
                             <img
                                 src="https://media.istockphoto.com/id/1364917563/es/foto/hombre-de-negocios-sonriendo-con-los-brazos-cruzados-sobre-fondo-blanco.jpg?s=612x612&w=0&k=20&c=NqMHLF8T4RzPaBE_WMnflSGB_1-kZZTQgAkekUxumZg="
-                                className="w-full rounded-lg shadow-lg shadow-black/20"
+                                className="w-[100%] rounded-lg shadow-lg shadow-black/20"
                                 alt=""
                             />
                         </div>

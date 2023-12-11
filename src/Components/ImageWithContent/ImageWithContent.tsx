@@ -19,31 +19,36 @@ export default function ImageWithContent() {
                         </h2>
 
                         <p className="mt-4 text-gray-300">
-                                Como desarrollador inmobiliario especializado en urbanización,
-                            mi compromiso es crear entornos residenciales que destaquen por su calidad,
-                            excelencia y tranquilidad. Cada proyecto que emprendo se caracteriza por 
-                            cumplir con los más altos estándares de construcción y diseño, asegurando 
-                            así un estilo de vida excepcional para quienes eligen formar 
-                            parte de estas comunidades.
-
-                            <br/>
-                            <br/>
-
-                                Desde la cuidadosa planificación urbana hasta la selección estratégica 
-                            de ubicaciones, me esfuerzo por ofrecer más que simples edificaciones;
-                            busco proporcionar hogares que reflejen un equilibrio armonioso con su
-                            entorno. La atención meticulosa a los detalles y el compromiso con prácticas
-                            sostenibles son elementos esenciales que contribuyen a la creación de espacios
-                            habitables que no solo satisfacen las necesidades de los residentes,
-                            sino que también promueven un bienestar duradero en la comunidad.
+                            Como desarrollador inmobiliario especializado en
+                            urbanización, mi compromiso es crear entornos
+                            residenciales que destaquen por su calidad,
+                            excelencia y tranquilidad. Cada proyecto que
+                            emprendo se caracteriza por cumplir con los más
+                            altos estándares de construcción y diseño,
+                            asegurando así un estilo de vida excepcional para
+                            quienes eligen formar parte de estas comunidades.
+                            <br />
+                            <br />
+                            Desde la cuidadosa planificación urbana hasta la
+                            selección estratégica de ubicaciones, me esfuerzo
+                            por ofrecer más que simples edificaciones; busco
+                            proporcionar hogares que reflejen un equilibrio
+                            armonioso con su entorno. La atención meticulosa a
+                            los detalles y el compromiso con prácticas
+                            sostenibles son elementos esenciales que contribuyen
+                            a la creación de espacios habitables que no solo
+                            satisfacen las necesidades de los residentes, sino
+                            que también promueven un bienestar duradero en la
+                            comunidad.
                         </p>
-
-                        <Link
-                            href="/contact"
-                            className="mt-8 inline-block rounded border-blue-950 bg-blue-950 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-blue-950 focus:outline-none focus:ring active:text-blue-950"
-                        >
-                            Contactame
-                        </Link>
+                        <div className="flex justify-center items-center lg:justify-start">
+                            <Link
+                                href="/contact"
+                                className="mt-8 inline-block rounded border-blue-950 bg-blue-950 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-blue-950 focus:outline-none focus:ring active:text-blue-950"
+                            >
+                                Contactame
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>

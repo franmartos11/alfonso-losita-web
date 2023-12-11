@@ -4,8 +4,8 @@ export default function CarrouselMamado() {
     return (
         <section className="bg-gray-900">
             <div className="h-[39rem] bg-gray-800">
-                <div className="container px-6 pt-7 pb-0 mx-auto">
-                    <h1 className="text-2xl mb-4 font-semibold text-center  capitalize lg:text-6xl text-white">
+                <div className="container px-6 pt-7 pb-0 mx-auto sm:pt-0 sm:pb-12">
+                    <h1 className="text-4xl mb-4 font-semibold text-center  capitalize lg:text-6xl text-white">
                         Mis Proyectos
                     </h1>
                     

@@ -3,13 +3,11 @@ export default function FooterV2() {
         <footer className="bg-gray-900">
             <div className="container px-6 py-8 mx-auto">
                 <div className="flex flex-col items-center text-center">
-                    <a href="/">
-                        
+                    <a href="/">                   
                         <span className=" w-auto h-7 self-center text-2xl font-semibold whitespace-nowrap text-white">
                         Alfonso Lozita
                     </span>
                     </a>
-
                     <div className="flex flex-wrap justify-center mt-6 -mx-4">
                         <a
                             href="#"
@@ -19,7 +17,6 @@ export default function FooterV2() {
                             {" "}
                             Home{" "}
                         </a>
-
                         <a
                             href="#"
                             className="mx-4 text-sm  transition-colors duration-300  text-gray-300 hover:text-blue-400"
@@ -28,7 +25,6 @@ export default function FooterV2() {
                             {" "}
                             About{" "}
                         </a>
-
                         <a
                             href="#"
                             className="mx-4 text-sm  transition-colors duration-300  text-gray-300 hover:text-blue-400"

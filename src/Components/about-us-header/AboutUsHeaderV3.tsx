@@ -64,10 +64,10 @@ export default function AboutUsHEADERv3() {
                 </svg>
             </span>
 
-            <div className="px-6 py-12 pt-[7rem] text-center md:px-12 lg:my-12 lg:text-left animate-fade-up animate-once animate-duration-[1700ms]">
+            <div className="px-6 pt-[7rem] pb-12 text-center lg:my-12 lg:text-left animate-fade-up animate-once animate-duration-[1700ms]">
                 <div className="w-100 mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
                     <div className="grid items-center gap-12 lg:grid-cols-2">
-                        <div className="mt-12 lg:mt-0">
+                        <div className="mt-0 lg:mt-0">
                             <h1 className="mb-10 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl">
                                 Alfonso Lozita <br />
                                 <span className="text-primary text-blue-950">
@@ -79,7 +79,7 @@ export default function AboutUsHEADERv3() {
                             me dedico a proporcionar un estándar de calidad excepcional
                             que garantiza excelencia y tranquilidad.
                             </p>
-                            <div className="flex items-center space-x-4 m-4 mx-0 ">
+                            <div className="flex items-center space-x-4 m-4 mx-0 justify-center sm:justify-center md:justify-start lg:justify-start xl:justify-start ">
                                 <a
                                     href="/"
                                     className="text-blue-950 transition-colors duration-300 hover:text-deep-purple-accent-400"

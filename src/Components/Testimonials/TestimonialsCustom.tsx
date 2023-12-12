@@ -22,7 +22,6 @@ export default function TestimonialsCustom() {
             image:
                 'https://img.freepik.com/foto-gratis/joven-confiado_1098-20868.jpg',
         },
-        // Add more testimonies as needed
     ];
 
     const [currentTestimonialIndex, setCurrentTestimonialIndex] = useState(0);

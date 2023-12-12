@@ -9,16 +9,13 @@ export default function ServicesDisplay() {
                         Mis Servicios
                     </h2>
                     <p className="mt-3 mb-16 text-gray-300 ">
-                        Descubre cómo podemos llevar tu visión más
-                        allá de las expectativas.
+                        Descubre cómo podemos llevar tu visión más allá de las
+                        expectativas.
                     </p>
                 </div>
 
                 <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-                    <a
-                        className="block rounded-sm border bg-gray-900 border-gray-800 p-8 shadow-xl transition hover:border-blue-950 hover:shadow-blue-950"
-                        href="/services/digital-campaigns"
-                    >
+                    <div className="block rounded-sm border bg-gray-900 border-gray-800 p-8 shadow-xl transition hover:border-blue-950 hover:shadow-blue-950">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-10 w-10 text-blue-700"
@@ -47,12 +44,9 @@ export default function ServicesDisplay() {
                             en la calidad de vida. Tu hogar de ensueño está a
                             solo un paso de distancia.
                         </p>
-                    </a>
+                    </div>
 
-                    <a
-                        className="block rounded-sm border bg-gray-900 border-gray-800 p-8 shadow-xl transition hover:border-blue-950 hover:shadow-blue-950"
-                        href="/services/digital-campaigns"
-                    >
+                    <div className="block rounded-sm border bg-gray-900 border-gray-800 p-8 shadow-xl transition hover:border-blue-950 hover:shadow-blue-950">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-10 w-10 text-blue-700"
@@ -80,12 +74,9 @@ export default function ServicesDisplay() {
                             ecoamigables, maximizando la armonía entre la
                             naturaleza y la vida moderna.
                         </p>
-                    </a>
+                    </div>
 
-                    <a
-                        className="block rounded-sm border bg-gray-900 border-gray-800 p-8 shadow-xl transition hover:border-blue-950 hover:shadow-blue-950"
-                        href="/services/digital-campaigns"
-                    >
+                    <div className="block rounded-sm border bg-gray-900 border-gray-800 p-8 shadow-xl transition hover:border-blue-950 hover:shadow-blue-950">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-10 w-10 text-blue-700"
@@ -114,12 +105,9 @@ export default function ServicesDisplay() {
                             detalle está diseñado para la funcionalidad y la
                             estética.
                         </p>
-                    </a>
+                    </div>
 
-                    <a
-                        className="block rounded-sm border bg-gray-900 border-gray-800 p-8 shadow-xl transition hover:border-blue-950 hover:shadow-blue-950"
-                        href="/services/digital-campaigns"
-                    >
+                    <div className="block rounded-sm border bg-gray-900 border-gray-800 p-8 shadow-xl transition hover:border-blue-950 hover:shadow-blue-950">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-10 w-10 text-blue-700"
@@ -148,12 +136,9 @@ export default function ServicesDisplay() {
                             decisiones informadas en inversiones y desarrollo de
                             propiedades.
                         </p>
-                    </a>
+                    </div>
 
-                    <a
-                        className="block rounded-sm border bg-gray-900 border-gray-800 p-8 shadow-xl transition  hover:border-blue-950 hover:shadow-blue-950"
-                        href="/services/digital-campaigns"
-                    >
+                    <div className="block rounded-sm border bg-gray-900 border-gray-800 p-8 shadow-xl transition  hover:border-blue-950 hover:shadow-blue-950">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-10 w-10 text-blue-700"
@@ -183,12 +168,9 @@ export default function ServicesDisplay() {
                             creamos entornos que fomentan la conexión con la
                             naturaleza y la comunidad.
                         </p>
-                    </a>
+                    </div>
 
-                    <a
-                        className="block rounded-sm border bg-gray-900 border-gray-800 p-8 shadow-xl transition hover:border-blue-950 hover:shadow-blue-950"
-                        href="/services/digital-campaigns"
-                    >
+                    <div className="block rounded-sm border bg-gray-900 border-gray-800 p-8 shadow-xl transition hover:border-blue-950 hover:shadow-blue-950">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-10 w-10 text-blue-700"
@@ -218,7 +200,7 @@ export default function ServicesDisplay() {
                             renovables, creamos comunidades que no solo siguen
                             las tendencias actuales, sino que las establecen
                         </p>
-                    </a>
+                    </div>
                 </div>
 
                 <div className="mt-12 mb-10 text-center">

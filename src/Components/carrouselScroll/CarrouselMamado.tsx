@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function CarrouselMamado() {
     return (
@@ -8,7 +9,7 @@ export default function CarrouselMamado() {
                     <h1 className="text-4xl mb-4 font-semibold text-center  capitalize lg:text-6xl text-white">
                         Mis Proyectos
                     </h1>
-                    
+
                     <div className="flex justify-center mx-auto mt-6">
                         <span className="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
                         <span className="inline-block w-3 h-1 mx-1 bg-blue-500 rounded-full"></span>
@@ -29,11 +30,11 @@ export default function CarrouselMamado() {
             <div className="container px-6 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
                 <div className="grid grid-cols-1 gap-8 mt-0 xl:mt-1 md:grid-cols-2 xl:grid-cols-3">
                     <div className="flex flex-col items-center p-4 border sm:p-6 rounded-sm dark:border-gray-700">
-                        <img
+                        <Image
                             className="object-cover w-full rounded-sm aspect-square"
                             src="https://img.freepik.com/vector-premium/diseno-logotipo-montana-simple_506432-199.jpg?w=2000"
                             alt=""
-                        />
+                        ></Image>
 
                         <h1 className="mt-4 text-2xl font-semibold  capitalize text-white">
                             Dos Arroyos
@@ -92,11 +93,11 @@ export default function CarrouselMamado() {
                     </div>
 
                     <div className="flex flex-col items-center p-4 border sm:p-6 rounded-sm dark:border-gray-700">
-                        <img
+                        <Image
                             className="object-cover w-full rounded-sm aspect-square"
                             src="https://img.freepik.com/vector-premium/logotipo-montana_858344-5.jpg?w=360"
                             alt=""
-                        />
+                        ></Image>
 
                         <h1 className="mt-4 text-2xl font-semibold  capitalize text-white">
                             Dos Arroyos
@@ -155,11 +156,11 @@ export default function CarrouselMamado() {
                     </div>
 
                     <div className="flex flex-col items-center p-4 border sm:p-6 rounded-sm dark:border-gray-700">
-                        <img
+                        <Image
                             className="object-cover w-full rounded-sm aspect-square"
                             src="https://img.freepik.com/vector-premium/montana-simple-vector-logotipo-medio-circulo_675016-4.jpg?w=2000"
                             alt=""
-                        />
+                        ></Image>
 
                         <h1 className="mt-4 text-2xl font-semibold  capitalize text-white">
                             Dos Arroyos

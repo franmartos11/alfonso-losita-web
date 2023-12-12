@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ContactCardImg() {
     return (
         <section className="min-h-screen bg-gray-800">
@@ -64,12 +65,11 @@ export default function ContactCardImg() {
                     </div>
 
                     <div className="mt-12 pt-[3rem] lg:flex lg:mt-0 lg:flex-col lg:items-center lg:w-1/2 lg:mx-10">
-                        <img
+                        <Image
                             className="hidden object-cover mx-auto rounded-full lg:block shrink-0 w-96 h-96"
                             src="https://img.freepik.com/fotos-premium/hombre-traje-hablando-telefono_171337-25305.jpg"
                             alt=""
-                        />
-
+                        ></Image>
                         <div className="mt-6 space-y-8 md:mt-8">
                             <p className="flex items-start -mx-2">
                                 <svg
@@ -142,9 +142,7 @@ export default function ContactCardImg() {
                         </div>
 
                         <div className="mt-6 w-80 md:mt-8">
-                            <h3 className="text-gray-300 ">
-                                Sigueme
-                            </h3>
+                            <h3 className="text-gray-300 ">Sigueme</h3>
 
                             <div className="flex mt-4 -mx-1.5 ">
                                 <a

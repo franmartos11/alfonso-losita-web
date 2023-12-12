@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function AboutUsHeader() {
     return (
         <div className="bg-white px-6 py-11 text-center  md:px-12 lg:text-left animate-fade-up animate-once animate-duration-[1700ms]">
@@ -5,7 +6,8 @@ export default function AboutUsHeader() {
                 <div className="grid items-center gap-12 lg:grid-cols-2">
                     <div className="mt-12 lg:mt-0">
                         <h1 className="mt-2  mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl">
-                             Quien soy?<br />
+                            Quien soy?
+                            <br />
                             <span className="text-primary">Alfonso Losita</span>
                         </h1>
                         <a
@@ -28,11 +30,11 @@ export default function AboutUsHeader() {
                         </a>
                     </div>
                     <div className="mb-12 lg:mb-0">
-                        <img
-                            src="https://media.licdn.com/dms/image/D4D22AQE3-LVPE9GAzQ/feedshare-shrink_1280/0/1698868435267?e=1704326400&v=beta&t=NKuvWVG0qibMyeb5nLpN3zEJKJW3imdQtwiu_1ElzIQ"
-                            className="w-[90%] h-[49rem]  rounded-lg shadow-lg shadow-black/20 object-cover"
+                        <Image
+                            src="../PHOTO-2020-03-13-19-15-28.JPG"
+                            className="w-[100%] h-[49rem]  rounded-lg shadow-lg shadow-black/20 object-cover"
                             alt=""
-                        />
+                        ></Image>
                     </div>
                 </div>
             </div>

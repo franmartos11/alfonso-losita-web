@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function AboutUsHEADERv3() {
     return (
         <section className="sm:mb-[1rem] lg:mb-[16rem] ">
@@ -75,9 +76,10 @@ export default function AboutUsHEADERv3() {
                                 </span>
                             </h1>
                             <p className="mb-0 p-2 text-gray-900">
-                            Como desarrollador inmobiliario especializado en urbanización,
-                            me dedico a proporcionar un estándar de calidad excepcional
-                            que garantiza excelencia y tranquilidad.
+                                Como desarrollador inmobiliario especializado en
+                                urbanización, me dedico a proporcionar un
+                                estándar de calidad excepcional que garantiza
+                                excelencia y tranquilidad.
                             </p>
                             <div className="flex items-center space-x-4 m-4 mx-0 justify-center sm:justify-center md:justify-center lg:justify-start xl:justify-start ">
                                 <a
@@ -132,11 +134,11 @@ export default function AboutUsHEADERv3() {
                             </div>
                         </div>
                         <div className="mb-12 lg:mb-0">
-                            <img
+                            <Image
                                 src="https://media.istockphoto.com/id/1364917563/es/foto/hombre-de-negocios-sonriendo-con-los-brazos-cruzados-sobre-fondo-blanco.jpg?s=612x612&w=0&k=20&c=NqMHLF8T4RzPaBE_WMnflSGB_1-kZZTQgAkekUxumZg="
                                 className="w-[100%] rounded-lg shadow-lg shadow-black/20"
                                 alt=""
-                            />
+                            ></Image>
                         </div>
                     </div>
                 </div>

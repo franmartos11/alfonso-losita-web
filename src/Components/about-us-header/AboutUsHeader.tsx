@@ -31,9 +31,11 @@ export default function AboutUsHeader() {
                     </div>
                     <div className="mb-12 lg:mb-0">
                         <Image
-                            src="../PHOTO-2020-03-13-19-15-28.JPG"
+                            src="/PHOTO-2020-03-13-19-15-28.JPG"
                             className="w-[100%] h-[49rem]  rounded-lg shadow-lg shadow-black/20 object-cover"
                             alt=""
+                            width={612}
+                            height={612}
                         ></Image>
                     </div>
                 </div>

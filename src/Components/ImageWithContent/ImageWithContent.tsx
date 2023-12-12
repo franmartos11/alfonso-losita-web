@@ -10,6 +10,8 @@ export default function ImageWithContent() {
                             alt="Party"
                             src="https://programandovalores.files.wordpress.com/2014/09/shanghai_sunset-wide.jpg"
                             className="absolute inset-0 h-full w-full object-cover"
+                            width={1200}
+                            height={800}
                         ></Image>
                     </div>
                     <div className="lg:py-24">

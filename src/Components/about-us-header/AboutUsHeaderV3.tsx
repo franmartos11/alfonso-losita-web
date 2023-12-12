@@ -138,6 +138,8 @@ export default function AboutUsHEADERv3() {
                                 src="https://media.istockphoto.com/id/1364917563/es/foto/hombre-de-negocios-sonriendo-con-los-brazos-cruzados-sobre-fondo-blanco.jpg?s=612x612&w=0&k=20&c=NqMHLF8T4RzPaBE_WMnflSGB_1-kZZTQgAkekUxumZg="
                                 className="w-[100%] rounded-lg shadow-lg shadow-black/20"
                                 alt=""
+                                width={612}
+                                height={612}
                             ></Image>
                         </div>
                     </div>

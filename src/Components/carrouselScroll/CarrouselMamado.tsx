@@ -34,6 +34,8 @@ export default function CarrouselMamado() {
                             className="object-cover w-full rounded-sm aspect-square"
                             src="https://img.freepik.com/vector-premium/diseno-logotipo-montana-simple_506432-199.jpg?w=2000"
                             alt=""
+                            width={2000}
+                            height={2000}
                         ></Image>
 
                         <h1 className="mt-4 text-2xl font-semibold  capitalize text-white">
@@ -97,6 +99,8 @@ export default function CarrouselMamado() {
                             className="object-cover w-full rounded-sm aspect-square"
                             src="https://img.freepik.com/vector-premium/logotipo-montana_858344-5.jpg?w=360"
                             alt=""
+                            width={2000}
+                            height={2000}
                         ></Image>
 
                         <h1 className="mt-4 text-2xl font-semibold  capitalize text-white">
@@ -160,6 +164,8 @@ export default function CarrouselMamado() {
                             className="object-cover w-full rounded-sm aspect-square"
                             src="https://img.freepik.com/vector-premium/montana-simple-vector-logotipo-medio-circulo_675016-4.jpg?w=2000"
                             alt=""
+                            width={2000}
+                            height={2000}
                         ></Image>
 
                         <h1 className="mt-4 text-2xl font-semibold  capitalize text-white">
